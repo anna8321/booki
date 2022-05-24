@@ -329,7 +329,7 @@ article {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-.cards a:hover, .cards a:active, .cards a:visited {
+.cards a, .cards a:hover, .cards a:active, .cards a:visited, .cards a:focus {
   text-decoration: none;
   color: black;
 }
@@ -414,7 +414,7 @@ aside {
   height: 84%;
 }
 
-.aside_cards a:hover, .aside_cards a:active, .aside_cards a:visited {
+.aside_cards a, .aside_cards a:hover, .aside_cards a:active, .aside_cards a:visited, .aside_cards a:focus {
   text-decoration: none;
   color: black;
 }
@@ -506,7 +506,7 @@ aside {
   height: 100%;
 }
 
-.activity_cards a:hover, .activity_cards a:active, .activity_cards a:visited {
+.activity_cards a, .activity_cards a:hover, .activity_cards a:active, .activity_cards a:visited, .activity_cards a:focus {
   color: black;
   text-decoration: none;
 }
